@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F84B515F1BA7E6AF007250F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B515E1BA7E6AF007250F5 /* main.m */; };
+		F84B51621BA7E6AF007250F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B51611BA7E6AF007250F5 /* AppDelegate.m */; };
+		F84B51651BA7E6AF007250F5 /* Taiwan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F84B51631BA7E6AF007250F5 /* Taiwan.xcdatamodeld */; };
+		F84B516B1BA7E6AF007250F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84B51691BA7E6AF007250F5 /* Main.storyboard */; };
+		F84B516D1BA7E6AF007250F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F84B516C1BA7E6AF007250F5 /* Images.xcassets */; };
+		F84B51701BA7E6AF007250F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F84B516E1BA7E6AF007250F5 /* LaunchScreen.xib */; };
+		F84B517C1BA7E6AF007250F5 /* TaiwanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B517B1BA7E6AF007250F5 /* TaiwanTests.m */; };
+		F84B51881BA7E73B007250F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B51871BA7E73B007250F5 /* ViewController.m */; };
+		F84B519F1BA7E775007250F5 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B51981BA7E775007250F5 /* Global.m */; };
+		F84B51A01BA7E775007250F5 /* httpEX.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B519A1BA7E775007250F5 /* httpEX.m */; };
+		F84B51A11BA7E775007250F5 /* jsonEX.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B519C1BA7E775007250F5 /* jsonEX.m */; };
+		F84B51A21BA7E775007250F5 /* MessageBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B519E1BA7E775007250F5 /* MessageBox.m */; };
+		F84B51AC1BA7E852007250F5 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B51AB1BA7E852007250F5 /* MapViewController.m */; };
+		F84B51AE1BA7E91D007250F5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84B51AD1BA7E91D007250F5 /* MapKit.framework */; };
+		F84B51DB1BA7F448007250F5 /* twcounty2010.2.json in Resources */ = {isa = PBXBuildFile; fileRef = F84B51BC1BA7F448007250F5 /* twcounty2010.2.json */; };
+		F84B51DC1BA7F448007250F5 /* twcounty2010.3.json in Resources */ = {isa = PBXBuildFile; fileRef = F84B51BD1BA7F448007250F5 /* twcounty2010.3.json */; };
+		F84B51DD1BA7F448007250F5 /* twcounty2010.4.json in Resources */ = {isa = PBXBuildFile; fileRef = F84B51BE1BA7F448007250F5 /* twcounty2010.4.json */; };
+		F84B51DE1BA7F448007250F5 /* twcounty2010.5.json in Resources */ = {isa = PBXBuildFile; fileRef = F84B51BF1BA7F448007250F5 /* twcounty2010.5.json */; };
+		F84B51DF1BA7F448007250F5 /* twcounty2010.6.json in Resources */ = {isa = PBXBuildFile; fileRef = F84B51C01BA7F448007250F5 /* twcounty2010.6.json */; };
+		F84B51E01BA7F448007250F5 /* twcounty2010.json in Resources */ = {isa = PBXBuildFile; fileRef = F84B51C11BA7F448007250F5 /* twcounty2010.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F84B51761BA7E6AF007250F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F84B51511BA7E6AF007250F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F84B51581BA7E6AF007250F5;
+			remoteInfo = Taiwan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F84B51591BA7E6AF007250F5 /* Taiwan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taiwan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84B515D1BA7E6AF007250F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F84B515E1BA7E6AF007250F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F84B51601BA7E6AF007250F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F84B51611BA7E6AF007250F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F84B51641BA7E6AF007250F5 /* Taiwan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Taiwan.xcdatamodel; sourceTree = "<group>"; };
+		F84B516A1BA7E6AF007250F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F84B516C1BA7E6AF007250F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F84B516F1BA7E6AF007250F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F84B51751BA7E6AF007250F5 /* TaiwanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaiwanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84B517A1BA7E6AF007250F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F84B517B1BA7E6AF007250F5 /* TaiwanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaiwanTests.m; sourceTree = "<group>"; };
+		F84B51861BA7E73B007250F5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = UI/ViewController.h; sourceTree = "<group>"; };
+		F84B51871BA7E73B007250F5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = UI/ViewController.m; sourceTree = "<group>"; };
+		F84B51971BA7E775007250F5 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Global.h; path = shared/Global.h; sourceTree = "<group>"; };
+		F84B51981BA7E775007250F5 /* Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Global.m; path = shared/Global.m; sourceTree = "<group>"; };
+		F84B51991BA7E775007250F5 /* httpEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = httpEX.h; path = shared/httpEX.h; sourceTree = "<group>"; };
+		F84B519A1BA7E775007250F5 /* httpEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = httpEX.m; path = shared/httpEX.m; sourceTree = "<group>"; };
+		F84B519B1BA7E775007250F5 /* jsonEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jsonEX.h; path = shared/jsonEX.h; sourceTree = "<group>"; };
+		F84B519C1BA7E775007250F5 /* jsonEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = jsonEX.m; path = shared/jsonEX.m; sourceTree = "<group>"; };
+		F84B519D1BA7E775007250F5 /* MessageBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageBox.h; path = shared/MessageBox.h; sourceTree = "<group>"; };
+		F84B519E1BA7E775007250F5 /* MessageBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageBox.m; path = shared/MessageBox.m; sourceTree = "<group>"; };
+		F84B51AA1BA7E852007250F5 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = UI/MapViewController.h; sourceTree = "<group>"; };
+		F84B51AB1BA7E852007250F5 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = UI/MapViewController.m; sourceTree = "<group>"; };
+		F84B51AD1BA7E91D007250F5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F84B51BC1BA7F448007250F5 /* twcounty2010.2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = twcounty2010.2.json; path = jsonFile/twcounty2010.2.json; sourceTree = "<group>"; };
+		F84B51BD1BA7F448007250F5 /* twcounty2010.3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = twcounty2010.3.json; path = jsonFile/twcounty2010.3.json; sourceTree = "<group>"; };
+		F84B51BE1BA7F448007250F5 /* twcounty2010.4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = twcounty2010.4.json; path = jsonFile/twcounty2010.4.json; sourceTree = "<group>"; };
+		F84B51BF1BA7F448007250F5 /* twcounty2010.5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = twcounty2010.5.json; path = jsonFile/twcounty2010.5.json; sourceTree = "<group>"; };
+		F84B51C01BA7F448007250F5 /* twcounty2010.6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = twcounty2010.6.json; path = jsonFile/twcounty2010.6.json; sourceTree = "<group>"; };
+		F84B51C11BA7F448007250F5 /* twcounty2010.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = twcounty2010.json; path = jsonFile/twcounty2010.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F84B51561BA7E6AF007250F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84B51AE1BA7E91D007250F5 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84B51721BA7E6AF007250F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F84B51501BA7E6AF007250F5 = {
+			isa = PBXGroup;
+			children = (
+				F84B51AD1BA7E91D007250F5 /* MapKit.framework */,
+				F84B515B1BA7E6AF007250F5 /* Taiwan */,
+				F84B51781BA7E6AF007250F5 /* TaiwanTests */,
+				F84B515A1BA7E6AF007250F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F84B515A1BA7E6AF007250F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F84B51591BA7E6AF007250F5 /* Taiwan.app */,
+				F84B51751BA7E6AF007250F5 /* TaiwanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F84B515B1BA7E6AF007250F5 /* Taiwan */ = {
+			isa = PBXGroup;
+			children = (
+				F84B51A31BA7E83D007250F5 /* jsonFile */,
+				F84B51961BA7E76B007250F5 /* shared */,
+				F84B51851BA7E72E007250F5 /* UI */,
+				F84B51601BA7E6AF007250F5 /* AppDelegate.h */,
+				F84B51611BA7E6AF007250F5 /* AppDelegate.m */,
+				F84B51691BA7E6AF007250F5 /* Main.storyboard */,
+				F84B516C1BA7E6AF007250F5 /* Images.xcassets */,
+				F84B516E1BA7E6AF007250F5 /* LaunchScreen.xib */,
+				F84B51631BA7E6AF007250F5 /* Taiwan.xcdatamodeld */,
+				F84B515C1BA7E6AF007250F5 /* Supporting Files */,
+			);
+			path = Taiwan;
+			sourceTree = "<group>";
+		};
+		F84B515C1BA7E6AF007250F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F84B515D1BA7E6AF007250F5 /* Info.plist */,
+				F84B515E1BA7E6AF007250F5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F84B51781BA7E6AF007250F5 /* TaiwanTests */ = {
+			isa = PBXGroup;
+			children = (
+				F84B517B1BA7E6AF007250F5 /* TaiwanTests.m */,
+				F84B51791BA7E6AF007250F5 /* Supporting Files */,
+			);
+			path = TaiwanTests;
+			sourceTree = "<group>";
+		};
+		F84B51791BA7E6AF007250F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F84B517A1BA7E6AF007250F5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F84B51851BA7E72E007250F5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F84B51AA1BA7E852007250F5 /* MapViewController.h */,
+				F84B51AB1BA7E852007250F5 /* MapViewController.m */,
+				F84B51861BA7E73B007250F5 /* ViewController.h */,
+				F84B51871BA7E73B007250F5 /* ViewController.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		F84B51961BA7E76B007250F5 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				F84B51971BA7E775007250F5 /* Global.h */,
+				F84B51981BA7E775007250F5 /* Global.m */,
+				F84B51991BA7E775007250F5 /* httpEX.h */,
+				F84B519A1BA7E775007250F5 /* httpEX.m */,
+				F84B519B1BA7E775007250F5 /* jsonEX.h */,
+				F84B519C1BA7E775007250F5 /* jsonEX.m */,
+				F84B519D1BA7E775007250F5 /* MessageBox.h */,
+				F84B519E1BA7E775007250F5 /* MessageBox.m */,
+			);
+			name = shared;
+			sourceTree = "<group>";
+		};
+		F84B51A31BA7E83D007250F5 /* jsonFile */ = {
+			isa = PBXGroup;
+			children = (
+				F84B51BC1BA7F448007250F5 /* twcounty2010.2.json */,
+				F84B51BD1BA7F448007250F5 /* twcounty2010.3.json */,
+				F84B51BE1BA7F448007250F5 /* twcounty2010.4.json */,
+				F84B51BF1BA7F448007250F5 /* twcounty2010.5.json */,
+				F84B51C01BA7F448007250F5 /* twcounty2010.6.json */,
+				F84B51C11BA7F448007250F5 /* twcounty2010.json */,
+			);
+			name = jsonFile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F84B51581BA7E6AF007250F5 /* Taiwan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F84B517F1BA7E6AF007250F5 /* Build configuration list for PBXNativeTarget "Taiwan" */;
+			buildPhases = (
+				F84B51551BA7E6AF007250F5 /* Sources */,
+				F84B51561BA7E6AF007250F5 /* Frameworks */,
+				F84B51571BA7E6AF007250F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Taiwan;
+			productName = Taiwan;
+			productReference = F84B51591BA7E6AF007250F5 /* Taiwan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F84B51741BA7E6AF007250F5 /* TaiwanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F84B51821BA7E6AF007250F5 /* Build configuration list for PBXNativeTarget "TaiwanTests" */;
+			buildPhases = (
+				F84B51711BA7E6AF007250F5 /* Sources */,
+				F84B51721BA7E6AF007250F5 /* Frameworks */,
+				F84B51731BA7E6AF007250F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F84B51771BA7E6AF007250F5 /* PBXTargetDependency */,
+			);
+			name = TaiwanTests;
+			productName = TaiwanTests;
+			productReference = F84B51751BA7E6AF007250F5 /* TaiwanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F84B51511BA7E6AF007250F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Lee, Chia-Pei";
+				TargetAttributes = {
+					F84B51581BA7E6AF007250F5 = {
+						CreatedOnToolsVersion = 6.4;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					F84B51741BA7E6AF007250F5 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F84B51581BA7E6AF007250F5;
+					};
+				};
+			};
+			buildConfigurationList = F84B51541BA7E6AF007250F5 /* Build configuration list for PBXProject "Taiwan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F84B51501BA7E6AF007250F5;
+			productRefGroup = F84B515A1BA7E6AF007250F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F84B51581BA7E6AF007250F5 /* Taiwan */,
+				F84B51741BA7E6AF007250F5 /* TaiwanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F84B51571BA7E6AF007250F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84B516B1BA7E6AF007250F5 /* Main.storyboard in Resources */,
+				F84B51DE1BA7F448007250F5 /* twcounty2010.5.json in Resources */,
+				F84B51DD1BA7F448007250F5 /* twcounty2010.4.json in Resources */,
+				F84B51DB1BA7F448007250F5 /* twcounty2010.2.json in Resources */,
+				F84B51E01BA7F448007250F5 /* twcounty2010.json in Resources */,
+				F84B51DC1BA7F448007250F5 /* twcounty2010.3.json in Resources */,
+				F84B51701BA7E6AF007250F5 /* LaunchScreen.xib in Resources */,
+				F84B516D1BA7E6AF007250F5 /* Images.xcassets in Resources */,
+				F84B51DF1BA7F448007250F5 /* twcounty2010.6.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84B51731BA7E6AF007250F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F84B51551BA7E6AF007250F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84B51A01BA7E775007250F5 /* httpEX.m in Sources */,
+				F84B51621BA7E6AF007250F5 /* AppDelegate.m in Sources */,
+				F84B515F1BA7E6AF007250F5 /* main.m in Sources */,
+				F84B51AC1BA7E852007250F5 /* MapViewController.m in Sources */,
+				F84B519F1BA7E775007250F5 /* Global.m in Sources */,
+				F84B51651BA7E6AF007250F5 /* Taiwan.xcdatamodeld in Sources */,
+				F84B51A21BA7E775007250F5 /* MessageBox.m in Sources */,
+				F84B51881BA7E73B007250F5 /* ViewController.m in Sources */,
+				F84B51A11BA7E775007250F5 /* jsonEX.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84B51711BA7E6AF007250F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84B517C1BA7E6AF007250F5 /* TaiwanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F84B51771BA7E6AF007250F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F84B51581BA7E6AF007250F5 /* Taiwan */;
+			targetProxy = F84B51761BA7E6AF007250F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F84B51691BA7E6AF007250F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F84B516A1BA7E6AF007250F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F84B516E1BA7E6AF007250F5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F84B516F1BA7E6AF007250F5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F84B517D1BA7E6AF007250F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F84B517E1BA7E6AF007250F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F84B51801BA7E6AF007250F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Taiwan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F84B51811BA7E6AF007250F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Taiwan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F84B51831BA7E6AF007250F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TaiwanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taiwan.app/Taiwan";
+			};
+			name = Debug;
+		};
+		F84B51841BA7E6AF007250F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TaiwanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taiwan.app/Taiwan";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F84B51541BA7E6AF007250F5 /* Build configuration list for PBXProject "Taiwan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84B517D1BA7E6AF007250F5 /* Debug */,
+				F84B517E1BA7E6AF007250F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F84B517F1BA7E6AF007250F5 /* Build configuration list for PBXNativeTarget "Taiwan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84B51801BA7E6AF007250F5 /* Debug */,
+				F84B51811BA7E6AF007250F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F84B51821BA7E6AF007250F5 /* Build configuration list for PBXNativeTarget "TaiwanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84B51831BA7E6AF007250F5 /* Debug */,
+				F84B51841BA7E6AF007250F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F84B51631BA7E6AF007250F5 /* Taiwan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F84B51641BA7E6AF007250F5 /* Taiwan.xcdatamodel */,
+			);
+			currentVersion = F84B51641BA7E6AF007250F5 /* Taiwan.xcdatamodel */;
+			path = Taiwan.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F84B51511BA7E6AF007250F5 /* Project object */;
+}
