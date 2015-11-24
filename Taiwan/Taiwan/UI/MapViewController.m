@@ -118,12 +118,12 @@
                     }
                     
                     //畫線
-                    //MKPolyline *line = [MKPolyline polylineWithPoints:points count:[point count]];
-                    //[thisMap addOverlay:line];
+                    MKPolyline *line = [MKPolyline polylineWithPoints:points count:[point count]];
+                    [thisMap addOverlay:line];
                     
                     //塗滿
-                    MKPolygon *polygon =[MKPolygon polygonWithCoordinates:pointsCoOrds count:[point count]];
-                    [thisMap addOverlay:polygon];
+                    //MKPolygon *polygon =[MKPolygon polygonWithCoordinates:pointsCoOrds count:[point count]];
+                    //[thisMap addOverlay:polygon];
                 }
             }
         }

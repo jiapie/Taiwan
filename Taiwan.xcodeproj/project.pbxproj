@@ -7,26 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F84B515F1BA7E6AF007250F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B515E1BA7E6AF007250F5 /* main.m */; };
-		F84B51621BA7E6AF007250F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B51611BA7E6AF007250F5 /* AppDelegate.m */; };
-		F84B51651BA7E6AF007250F5 /* Taiwan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F84B51631BA7E6AF007250F5 /* Taiwan.xcdatamodeld */; };
-		F84B516B1BA7E6AF007250F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84B51691BA7E6AF007250F5 /* Main.storyboard */; };
-		F84B516D1BA7E6AF007250F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F84B516C1BA7E6AF007250F5 /* Images.xcassets */; };
-		F84B51701BA7E6AF007250F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F84B516E1BA7E6AF007250F5 /* LaunchScreen.xib */; };
 		F84B517C1BA7E6AF007250F5 /* TaiwanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B517B1BA7E6AF007250F5 /* TaiwanTests.m */; };
-		F84B51881BA7E73B007250F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B51871BA7E73B007250F5 /* ViewController.m */; };
-		F84B519F1BA7E775007250F5 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B51981BA7E775007250F5 /* Global.m */; };
-		F84B51A01BA7E775007250F5 /* httpEX.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B519A1BA7E775007250F5 /* httpEX.m */; };
-		F84B51A11BA7E775007250F5 /* jsonEX.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B519C1BA7E775007250F5 /* jsonEX.m */; };
-		F84B51A21BA7E775007250F5 /* MessageBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B519E1BA7E775007250F5 /* MessageBox.m */; };
-		F84B51AC1BA7E852007250F5 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B51AB1BA7E852007250F5 /* MapViewController.m */; };
 		F84B51AE1BA7E91D007250F5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84B51AD1BA7E91D007250F5 /* MapKit.framework */; };
-		F84B51DB1BA7F448007250F5 /* twcounty2010.2.json in Resources */ = {isa = PBXBuildFile; fileRef = F84B51BC1BA7F448007250F5 /* twcounty2010.2.json */; };
-		F84B51DC1BA7F448007250F5 /* twcounty2010.3.json in Resources */ = {isa = PBXBuildFile; fileRef = F84B51BD1BA7F448007250F5 /* twcounty2010.3.json */; };
-		F84B51DD1BA7F448007250F5 /* twcounty2010.4.json in Resources */ = {isa = PBXBuildFile; fileRef = F84B51BE1BA7F448007250F5 /* twcounty2010.4.json */; };
-		F84B51DE1BA7F448007250F5 /* twcounty2010.5.json in Resources */ = {isa = PBXBuildFile; fileRef = F84B51BF1BA7F448007250F5 /* twcounty2010.5.json */; };
-		F84B51DF1BA7F448007250F5 /* twcounty2010.6.json in Resources */ = {isa = PBXBuildFile; fileRef = F84B51C01BA7F448007250F5 /* twcounty2010.6.json */; };
-		F84B51E01BA7F448007250F5 /* twcounty2010.json in Resources */ = {isa = PBXBuildFile; fileRef = F84B51C11BA7F448007250F5 /* twcounty2010.json */; };
+		F8ACBD961C043EBF00DAC4A1 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8ACBD931C043EBF00DAC4A1 /* MapViewController.m */; };
+		F8ACBD971C043EBF00DAC4A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8ACBD951C043EBF00DAC4A1 /* ViewController.m */; };
+		F8ACBD9B1C043ED700DAC4A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8ACBD991C043ED700DAC4A1 /* AppDelegate.m */; };
+		F8ACBD9C1C043ED700DAC4A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8ACBD9A1C043ED700DAC4A1 /* Images.xcassets */; };
+		F8ACBDA01C043EFC00DAC4A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8ACBD9E1C043EFC00DAC4A1 /* main.m */; };
+		F8ACBDA91C043F1500DAC4A1 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = F8ACBDA21C043F1500DAC4A1 /* Global.m */; };
+		F8ACBDAA1C043F1500DAC4A1 /* httpEX.m in Sources */ = {isa = PBXBuildFile; fileRef = F8ACBDA41C043F1500DAC4A1 /* httpEX.m */; };
+		F8ACBDAB1C043F1500DAC4A1 /* jsonEX.m in Sources */ = {isa = PBXBuildFile; fileRef = F8ACBDA61C043F1500DAC4A1 /* jsonEX.m */; };
+		F8ACBDAC1C043F1500DAC4A1 /* MessageBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F8ACBDA81C043F1500DAC4A1 /* MessageBox.m */; };
+		F8ACBDB31C043F2400DAC4A1 /* twcounty2010.2.json in Resources */ = {isa = PBXBuildFile; fileRef = F8ACBDAD1C043F2400DAC4A1 /* twcounty2010.2.json */; };
+		F8ACBDB41C043F2400DAC4A1 /* twcounty2010.3.json in Resources */ = {isa = PBXBuildFile; fileRef = F8ACBDAE1C043F2400DAC4A1 /* twcounty2010.3.json */; };
+		F8ACBDB51C043F2400DAC4A1 /* twcounty2010.4.json in Resources */ = {isa = PBXBuildFile; fileRef = F8ACBDAF1C043F2400DAC4A1 /* twcounty2010.4.json */; };
+		F8ACBDB61C043F2400DAC4A1 /* twcounty2010.5.json in Resources */ = {isa = PBXBuildFile; fileRef = F8ACBDB01C043F2400DAC4A1 /* twcounty2010.5.json */; };
+		F8ACBDB71C043F2400DAC4A1 /* twcounty2010.6.json in Resources */ = {isa = PBXBuildFile; fileRef = F8ACBDB11C043F2400DAC4A1 /* twcounty2010.6.json */; };
+		F8ACBDB81C043F2400DAC4A1 /* twcounty2010.json in Resources */ = {isa = PBXBuildFile; fileRef = F8ACBDB21C043F2400DAC4A1 /* twcounty2010.json */; };
+		F8ACBDBA1C043F3F00DAC4A1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8ACBDB91C043F3F00DAC4A1 /* Default-568h@2x.png */; };
+		F8ACBDBF1C043FA200DAC4A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8ACBDBB1C043FA200DAC4A1 /* LaunchScreen.xib */; };
+		F8ACBDC01C043FA200DAC4A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8ACBDBD1C043FA200DAC4A1 /* Main.storyboard */; };
+		F8ACBDC21C043FBD00DAC4A1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8ACBDC11C043FBD00DAC4A1 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,36 +42,36 @@
 
 /* Begin PBXFileReference section */
 		F84B51591BA7E6AF007250F5 /* Taiwan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taiwan.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F84B515D1BA7E6AF007250F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F84B515E1BA7E6AF007250F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F84B51601BA7E6AF007250F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F84B51611BA7E6AF007250F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F84B51641BA7E6AF007250F5 /* Taiwan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Taiwan.xcdatamodel; sourceTree = "<group>"; };
-		F84B516A1BA7E6AF007250F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F84B516C1BA7E6AF007250F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F84B516F1BA7E6AF007250F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F84B51751BA7E6AF007250F5 /* TaiwanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaiwanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F84B517A1BA7E6AF007250F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F84B517B1BA7E6AF007250F5 /* TaiwanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaiwanTests.m; sourceTree = "<group>"; };
-		F84B51861BA7E73B007250F5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = UI/ViewController.h; sourceTree = "<group>"; };
-		F84B51871BA7E73B007250F5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = UI/ViewController.m; sourceTree = "<group>"; };
-		F84B51971BA7E775007250F5 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Global.h; path = shared/Global.h; sourceTree = "<group>"; };
-		F84B51981BA7E775007250F5 /* Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Global.m; path = shared/Global.m; sourceTree = "<group>"; };
-		F84B51991BA7E775007250F5 /* httpEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = httpEX.h; path = shared/httpEX.h; sourceTree = "<group>"; };
-		F84B519A1BA7E775007250F5 /* httpEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = httpEX.m; path = shared/httpEX.m; sourceTree = "<group>"; };
-		F84B519B1BA7E775007250F5 /* jsonEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jsonEX.h; path = shared/jsonEX.h; sourceTree = "<group>"; };
-		F84B519C1BA7E775007250F5 /* jsonEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = jsonEX.m; path = shared/jsonEX.m; sourceTree = "<group>"; };
-		F84B519D1BA7E775007250F5 /* MessageBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageBox.h; path = shared/MessageBox.h; sourceTree = "<group>"; };
-		F84B519E1BA7E775007250F5 /* MessageBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageBox.m; path = shared/MessageBox.m; sourceTree = "<group>"; };
-		F84B51AA1BA7E852007250F5 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = UI/MapViewController.h; sourceTree = "<group>"; };
-		F84B51AB1BA7E852007250F5 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = UI/MapViewController.m; sourceTree = "<group>"; };
 		F84B51AD1BA7E91D007250F5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		F84B51BC1BA7F448007250F5 /* twcounty2010.2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = twcounty2010.2.json; path = jsonFile/twcounty2010.2.json; sourceTree = "<group>"; };
-		F84B51BD1BA7F448007250F5 /* twcounty2010.3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = twcounty2010.3.json; path = jsonFile/twcounty2010.3.json; sourceTree = "<group>"; };
-		F84B51BE1BA7F448007250F5 /* twcounty2010.4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = twcounty2010.4.json; path = jsonFile/twcounty2010.4.json; sourceTree = "<group>"; };
-		F84B51BF1BA7F448007250F5 /* twcounty2010.5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = twcounty2010.5.json; path = jsonFile/twcounty2010.5.json; sourceTree = "<group>"; };
-		F84B51C01BA7F448007250F5 /* twcounty2010.6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = twcounty2010.6.json; path = jsonFile/twcounty2010.6.json; sourceTree = "<group>"; };
-		F84B51C11BA7F448007250F5 /* twcounty2010.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = twcounty2010.json; path = jsonFile/twcounty2010.json; sourceTree = "<group>"; };
+		F8ACBD921C043EBF00DAC4A1 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = Taiwan/UI/MapViewController.h; sourceTree = "<group>"; };
+		F8ACBD931C043EBF00DAC4A1 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = Taiwan/UI/MapViewController.m; sourceTree = "<group>"; };
+		F8ACBD941C043EBF00DAC4A1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Taiwan/UI/ViewController.h; sourceTree = "<group>"; };
+		F8ACBD951C043EBF00DAC4A1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Taiwan/UI/ViewController.m; sourceTree = "<group>"; };
+		F8ACBD981C043ED700DAC4A1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Taiwan/AppDelegate.h; sourceTree = "<group>"; };
+		F8ACBD991C043ED700DAC4A1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Taiwan/AppDelegate.m; sourceTree = "<group>"; };
+		F8ACBD9A1C043ED700DAC4A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Taiwan/Images.xcassets; sourceTree = "<group>"; };
+		F8ACBD9E1C043EFC00DAC4A1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Taiwan/main.m; sourceTree = "<group>"; };
+		F8ACBDA11C043F1500DAC4A1 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Global.h; path = Taiwan/shared/Global.h; sourceTree = "<group>"; };
+		F8ACBDA21C043F1500DAC4A1 /* Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Global.m; path = Taiwan/shared/Global.m; sourceTree = "<group>"; };
+		F8ACBDA31C043F1500DAC4A1 /* httpEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = httpEX.h; path = Taiwan/shared/httpEX.h; sourceTree = "<group>"; };
+		F8ACBDA41C043F1500DAC4A1 /* httpEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = httpEX.m; path = Taiwan/shared/httpEX.m; sourceTree = "<group>"; };
+		F8ACBDA51C043F1500DAC4A1 /* jsonEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jsonEX.h; path = Taiwan/shared/jsonEX.h; sourceTree = "<group>"; };
+		F8ACBDA61C043F1500DAC4A1 /* jsonEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = jsonEX.m; path = Taiwan/shared/jsonEX.m; sourceTree = "<group>"; };
+		F8ACBDA71C043F1500DAC4A1 /* MessageBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageBox.h; path = Taiwan/shared/MessageBox.h; sourceTree = "<group>"; };
+		F8ACBDA81C043F1500DAC4A1 /* MessageBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageBox.m; path = Taiwan/shared/MessageBox.m; sourceTree = "<group>"; };
+		F8ACBDAD1C043F2400DAC4A1 /* twcounty2010.2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = twcounty2010.2.json; path = Taiwan/jsonFile/twcounty2010.2.json; sourceTree = "<group>"; };
+		F8ACBDAE1C043F2400DAC4A1 /* twcounty2010.3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = twcounty2010.3.json; path = Taiwan/jsonFile/twcounty2010.3.json; sourceTree = "<group>"; };
+		F8ACBDAF1C043F2400DAC4A1 /* twcounty2010.4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = twcounty2010.4.json; path = Taiwan/jsonFile/twcounty2010.4.json; sourceTree = "<group>"; };
+		F8ACBDB01C043F2400DAC4A1 /* twcounty2010.5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = twcounty2010.5.json; path = Taiwan/jsonFile/twcounty2010.5.json; sourceTree = "<group>"; };
+		F8ACBDB11C043F2400DAC4A1 /* twcounty2010.6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = twcounty2010.6.json; path = Taiwan/jsonFile/twcounty2010.6.json; sourceTree = "<group>"; };
+		F8ACBDB21C043F2400DAC4A1 /* twcounty2010.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = twcounty2010.json; path = Taiwan/jsonFile/twcounty2010.json; sourceTree = "<group>"; };
+		F8ACBDB91C043F3F00DAC4A1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F8ACBDBC1C043FA200DAC4A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Taiwan/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F8ACBDBE1C043FA200DAC4A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Taiwan/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8ACBDC11C043FBD00DAC4A1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Taiwan/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 		F84B51501BA7E6AF007250F5 = {
 			isa = PBXGroup;
 			children = (
+				F8ACBDB91C043F3F00DAC4A1 /* Default-568h@2x.png */,
 				F84B51AD1BA7E91D007250F5 /* MapKit.framework */,
 				F84B515B1BA7E6AF007250F5 /* Taiwan */,
 				F84B51781BA7E6AF007250F5 /* TaiwanTests */,
@@ -114,15 +116,14 @@
 		F84B515B1BA7E6AF007250F5 /* Taiwan */ = {
 			isa = PBXGroup;
 			children = (
+				F8ACBDBB1C043FA200DAC4A1 /* LaunchScreen.xib */,
+				F8ACBDBD1C043FA200DAC4A1 /* Main.storyboard */,
+				F8ACBD981C043ED700DAC4A1 /* AppDelegate.h */,
+				F8ACBD991C043ED700DAC4A1 /* AppDelegate.m */,
+				F8ACBD9A1C043ED700DAC4A1 /* Images.xcassets */,
 				F84B51A31BA7E83D007250F5 /* jsonFile */,
 				F84B51961BA7E76B007250F5 /* shared */,
 				F84B51851BA7E72E007250F5 /* UI */,
-				F84B51601BA7E6AF007250F5 /* AppDelegate.h */,
-				F84B51611BA7E6AF007250F5 /* AppDelegate.m */,
-				F84B51691BA7E6AF007250F5 /* Main.storyboard */,
-				F84B516C1BA7E6AF007250F5 /* Images.xcassets */,
-				F84B516E1BA7E6AF007250F5 /* LaunchScreen.xib */,
-				F84B51631BA7E6AF007250F5 /* Taiwan.xcdatamodeld */,
 				F84B515C1BA7E6AF007250F5 /* Supporting Files */,
 			);
 			path = Taiwan;
@@ -131,8 +132,8 @@
 		F84B515C1BA7E6AF007250F5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F84B515D1BA7E6AF007250F5 /* Info.plist */,
-				F84B515E1BA7E6AF007250F5 /* main.m */,
+				F8ACBDC11C043FBD00DAC4A1 /* Info.plist */,
+				F8ACBD9E1C043EFC00DAC4A1 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -157,10 +158,10 @@
 		F84B51851BA7E72E007250F5 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				F84B51AA1BA7E852007250F5 /* MapViewController.h */,
-				F84B51AB1BA7E852007250F5 /* MapViewController.m */,
-				F84B51861BA7E73B007250F5 /* ViewController.h */,
-				F84B51871BA7E73B007250F5 /* ViewController.m */,
+				F8ACBD921C043EBF00DAC4A1 /* MapViewController.h */,
+				F8ACBD931C043EBF00DAC4A1 /* MapViewController.m */,
+				F8ACBD941C043EBF00DAC4A1 /* ViewController.h */,
+				F8ACBD951C043EBF00DAC4A1 /* ViewController.m */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -168,14 +169,14 @@
 		F84B51961BA7E76B007250F5 /* shared */ = {
 			isa = PBXGroup;
 			children = (
-				F84B51971BA7E775007250F5 /* Global.h */,
-				F84B51981BA7E775007250F5 /* Global.m */,
-				F84B51991BA7E775007250F5 /* httpEX.h */,
-				F84B519A1BA7E775007250F5 /* httpEX.m */,
-				F84B519B1BA7E775007250F5 /* jsonEX.h */,
-				F84B519C1BA7E775007250F5 /* jsonEX.m */,
-				F84B519D1BA7E775007250F5 /* MessageBox.h */,
-				F84B519E1BA7E775007250F5 /* MessageBox.m */,
+				F8ACBDA11C043F1500DAC4A1 /* Global.h */,
+				F8ACBDA21C043F1500DAC4A1 /* Global.m */,
+				F8ACBDA31C043F1500DAC4A1 /* httpEX.h */,
+				F8ACBDA41C043F1500DAC4A1 /* httpEX.m */,
+				F8ACBDA51C043F1500DAC4A1 /* jsonEX.h */,
+				F8ACBDA61C043F1500DAC4A1 /* jsonEX.m */,
+				F8ACBDA71C043F1500DAC4A1 /* MessageBox.h */,
+				F8ACBDA81C043F1500DAC4A1 /* MessageBox.m */,
 			);
 			name = shared;
 			sourceTree = "<group>";
@@ -183,12 +184,12 @@
 		F84B51A31BA7E83D007250F5 /* jsonFile */ = {
 			isa = PBXGroup;
 			children = (
-				F84B51BC1BA7F448007250F5 /* twcounty2010.2.json */,
-				F84B51BD1BA7F448007250F5 /* twcounty2010.3.json */,
-				F84B51BE1BA7F448007250F5 /* twcounty2010.4.json */,
-				F84B51BF1BA7F448007250F5 /* twcounty2010.5.json */,
-				F84B51C01BA7F448007250F5 /* twcounty2010.6.json */,
-				F84B51C11BA7F448007250F5 /* twcounty2010.json */,
+				F8ACBDAD1C043F2400DAC4A1 /* twcounty2010.2.json */,
+				F8ACBDAE1C043F2400DAC4A1 /* twcounty2010.3.json */,
+				F8ACBDAF1C043F2400DAC4A1 /* twcounty2010.4.json */,
+				F8ACBDB01C043F2400DAC4A1 /* twcounty2010.5.json */,
+				F8ACBDB11C043F2400DAC4A1 /* twcounty2010.6.json */,
+				F8ACBDB21C043F2400DAC4A1 /* twcounty2010.json */,
 			);
 			name = jsonFile;
 			sourceTree = "<group>";
@@ -237,7 +238,7 @@
 		F84B51511BA7E6AF007250F5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Lee, Chia-Pei";
 				TargetAttributes = {
 					F84B51581BA7E6AF007250F5 = {
@@ -278,15 +279,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F84B516B1BA7E6AF007250F5 /* Main.storyboard in Resources */,
-				F84B51DE1BA7F448007250F5 /* twcounty2010.5.json in Resources */,
-				F84B51DD1BA7F448007250F5 /* twcounty2010.4.json in Resources */,
-				F84B51DB1BA7F448007250F5 /* twcounty2010.2.json in Resources */,
-				F84B51E01BA7F448007250F5 /* twcounty2010.json in Resources */,
-				F84B51DC1BA7F448007250F5 /* twcounty2010.3.json in Resources */,
-				F84B51701BA7E6AF007250F5 /* LaunchScreen.xib in Resources */,
-				F84B516D1BA7E6AF007250F5 /* Images.xcassets in Resources */,
-				F84B51DF1BA7F448007250F5 /* twcounty2010.6.json in Resources */,
+				F8ACBDBF1C043FA200DAC4A1 /* LaunchScreen.xib in Resources */,
+				F8ACBDB31C043F2400DAC4A1 /* twcounty2010.2.json in Resources */,
+				F8ACBDBA1C043F3F00DAC4A1 /* Default-568h@2x.png in Resources */,
+				F8ACBDB71C043F2400DAC4A1 /* twcounty2010.6.json in Resources */,
+				F8ACBDB51C043F2400DAC4A1 /* twcounty2010.4.json in Resources */,
+				F8ACBDC01C043FA200DAC4A1 /* Main.storyboard in Resources */,
+				F8ACBDB41C043F2400DAC4A1 /* twcounty2010.3.json in Resources */,
+				F8ACBD9C1C043ED700DAC4A1 /* Images.xcassets in Resources */,
+				F8ACBDC21C043FBD00DAC4A1 /* Info.plist in Resources */,
+				F8ACBDB61C043F2400DAC4A1 /* twcounty2010.5.json in Resources */,
+				F8ACBDB81C043F2400DAC4A1 /* twcounty2010.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,15 +307,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F84B51A01BA7E775007250F5 /* httpEX.m in Sources */,
-				F84B51621BA7E6AF007250F5 /* AppDelegate.m in Sources */,
-				F84B515F1BA7E6AF007250F5 /* main.m in Sources */,
-				F84B51AC1BA7E852007250F5 /* MapViewController.m in Sources */,
-				F84B519F1BA7E775007250F5 /* Global.m in Sources */,
-				F84B51651BA7E6AF007250F5 /* Taiwan.xcdatamodeld in Sources */,
-				F84B51A21BA7E775007250F5 /* MessageBox.m in Sources */,
-				F84B51881BA7E73B007250F5 /* ViewController.m in Sources */,
-				F84B51A11BA7E775007250F5 /* jsonEX.m in Sources */,
+				F8ACBDAC1C043F1500DAC4A1 /* MessageBox.m in Sources */,
+				F8ACBDA91C043F1500DAC4A1 /* Global.m in Sources */,
+				F8ACBDA01C043EFC00DAC4A1 /* main.m in Sources */,
+				F8ACBDAB1C043F1500DAC4A1 /* jsonEX.m in Sources */,
+				F8ACBD9B1C043ED700DAC4A1 /* AppDelegate.m in Sources */,
+				F8ACBD961C043EBF00DAC4A1 /* MapViewController.m in Sources */,
+				F8ACBD971C043EBF00DAC4A1 /* ViewController.m in Sources */,
+				F8ACBDAA1C043F1500DAC4A1 /* httpEX.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,20 +337,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F84B51691BA7E6AF007250F5 /* Main.storyboard */ = {
+		F8ACBDBB1C043FA200DAC4A1 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F84B516A1BA7E6AF007250F5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F84B516E1BA7E6AF007250F5 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F84B516F1BA7E6AF007250F5 /* Base */,
+				F8ACBDBC1C043FA200DAC4A1 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		F8ACBDBD1C043FA200DAC4A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8ACBDBE1C043FA200DAC4A1 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -375,6 +377,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -440,7 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Taiwan/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Taiwan/Taiwan/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -450,7 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Taiwan/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Taiwan/Taiwan/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -470,6 +473,7 @@
 				);
 				INFOPLIST_FILE = TaiwanTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Star.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taiwan.app/Taiwan";
 			};
@@ -485,6 +489,7 @@
 				);
 				INFOPLIST_FILE = TaiwanTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Star.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taiwan.app/Taiwan";
 			};
@@ -521,19 +526,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		F84B51631BA7E6AF007250F5 /* Taiwan.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				F84B51641BA7E6AF007250F5 /* Taiwan.xcdatamodel */,
-			);
-			currentVersion = F84B51641BA7E6AF007250F5 /* Taiwan.xcdatamodel */;
-			path = Taiwan.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = F84B51511BA7E6AF007250F5 /* Project object */;
 }
